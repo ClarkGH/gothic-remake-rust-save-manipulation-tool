@@ -1,0 +1,11 @@
+[package]
+name = "gothic-save"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Gothic 1 Remake save file parsing and manipulation"
+
+[dependencies]
+thiserror.workspace = true
+
+# byteorder or zerocopy later, when we parse binary fields

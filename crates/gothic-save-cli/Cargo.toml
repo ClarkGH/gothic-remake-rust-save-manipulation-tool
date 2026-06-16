@@ -1,0 +1,15 @@
+[package]
+name = "gothic-save-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CLI for Gothic 1 Remake save files"
+
+[[bin]]
+name = "gothic-save"
+path = "src/main.rs"
+
+[dependencies]
+gothic-save = { path = "../gothic-save" }
+anyhow.workspace = true
+clap.workspace = true
